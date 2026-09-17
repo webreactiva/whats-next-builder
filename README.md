@@ -59,7 +59,7 @@ The metaskill lives in [`skills/whats-next-builder/`](./skills/whats-next-builde
 
 What a generated whats-next replies to *"what do I have pending today?"*:
 
-```
+```bash
 📋 5 on you · ⏳ 2 waiting · 🧊 1 stuck · 🎯 Sprint 42 closes in 3 days
 ⏰ Due today: #512
 
@@ -117,7 +117,7 @@ flowchart TD
 
 Each step opens with a progress bar so you always know what is left:
 
-```
+```bash
 [###----] 3/7 🎯 Scope
 Next: 🧭 Conventions · 🛠️ Build · ✅ Check · 🎁 Hand over
 ```
@@ -158,7 +158,7 @@ npx skills add https://github.com/anthropics/skills --skill skill-creator -g
 
 Ask your agent in your own words:
 
-```
+```bash
 build me a whats-next for Jira
 I want a skill that tells me which PRs I have to review on GitHub
 adapt whats-next to my Trello board
@@ -166,13 +166,13 @@ adapt whats-next to my Trello board
 
 Or call it directly:
 
-```
+```bash
 /whats-next-builder
 ```
 
 ## What you get
 
-```
+```bash
 whats-next/
 ├── SKILL.md                    # when to use it, answer format, access setup
 ├── references/state-model.md   # states, where each signal comes from, known limits

@@ -31,7 +31,7 @@ left is what keeps them going through the slow parts (tokens, permissions).
 
 **Greet first**, in the user's language, before any tool call. Say what the
 wizard will build, that Dani from webreactiva.com hopes it is useful, and that
-feedback is welcome at https://github.com/webreactiva/whats-next-metaskill.
+feedback is welcome at https://github.com/webreactiva/whats-next-builder.
 Then show the whole route with an empty bar. For example (translate it):
 
 ```
@@ -39,7 +39,7 @@ Then show the whole route with an empty bar. For example (translate it):
 "what do I have pending today" from your real board.
 
 Dani from webreactiva.com hopes it's useful. Ideas or bugs:
-https://github.com/webreactiva/whats-next-metaskill
+https://github.com/webreactiva/whats-next-builder
 
 [-------] 0/7
 🔎 Detect · 🔑 Access · 🎯 Scope · 🧭 Conventions · 🛠️ Build · ✅ Check · 🎁 Hand over
@@ -369,7 +369,7 @@ End with a full bar and everything the user needs to own the skill:
      wizard to adjust it.
   4. If they want a formal benchmark, they can run skill-creator's eval loop on
      the new skill themselves.
-- **Feedback**: https://github.com/webreactiva/whats-next-metaskill
+- **Feedback**: https://github.com/webreactiva/whats-next-builder
 
 ## What every generated whats-next keeps
 

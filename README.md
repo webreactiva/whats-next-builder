@@ -1,4 +1,4 @@
-# whats-next-metaskill
+# whats-next-builder
 
 🇪🇸 [Leer en español](./README.es.md)
 
@@ -139,10 +139,10 @@ With [`skills`](https://github.com/vercel-labs/skills):
 
 ```bash
 # for all your projects
-npx skills add webreactiva/whats-next-metaskill -g
+npx skills add webreactiva/whats-next-builder -g
 
 # for the current project only
-npx skills add webreactiva/whats-next-metaskill
+npx skills add webreactiva/whats-next-builder
 ```
 
 Add `-a claude-code` (or another agent) to choose where it goes.
@@ -207,4 +207,4 @@ API docs. It is a starting point, not a closed list.
 
 Dani from [webreactiva.com](https://webreactiva.com) hopes it is useful. Ideas,
 bugs or systems that fight back:
-[github.com/webreactiva/whats-next-metaskill/issues](https://github.com/webreactiva/whats-next-metaskill/issues).
+[github.com/webreactiva/whats-next-builder/issues](https://github.com/webreactiva/whats-next-builder/issues).

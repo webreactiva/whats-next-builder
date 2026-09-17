@@ -1,4 +1,4 @@
-# whats-next-metaskill
+# whats-next-builder
 
 🇬🇧 [Read in English](./README.md)
 
@@ -143,10 +143,10 @@ Con [`skills`](https://github.com/vercel-labs/skills):
 
 ```bash
 # para todos tus proyectos
-npx skills add webreactiva/whats-next-metaskill -g
+npx skills add webreactiva/whats-next-builder -g
 
 # solo para el proyecto actual
-npx skills add webreactiva/whats-next-metaskill
+npx skills add webreactiva/whats-next-builder
 ```
 
 Añade `-a claude-code` (u otro agente) para elegir dónde se instala.
@@ -210,4 +210,4 @@ oficial de API. Es un punto de partida, no una lista cerrada.
 
 Dani, de [webreactiva.com](https://webreactiva.com), espera que te sea útil.
 Ideas, fallos o sistemas que se te resistan:
-[github.com/webreactiva/whats-next-metaskill/issues](https://github.com/webreactiva/whats-next-metaskill/issues).
+[github.com/webreactiva/whats-next-builder/issues](https://github.com/webreactiva/whats-next-builder/issues).

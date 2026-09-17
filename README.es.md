@@ -121,7 +121,7 @@ flowchart TD
 
 Cada paso empieza con una barra de progreso para que sepas siempre qué falta:
 
-```
+```bash
 [###----] 3/7 🎯 Scope
 Next: 🧭 Conventions · 🛠️ Build · ✅ Check · 🎁 Hand over
 ```
@@ -162,7 +162,7 @@ npx skills add https://github.com/anthropics/skills --skill skill-creator -g
 
 Pídeselo a tu agente con tus palabras:
 
-```
+```bash
 créame un whats-next para Jira
 quiero una skill que me diga qué PR tengo que revisar en GitHub
 adapta whats-next a mi tablero de Trello
@@ -170,13 +170,13 @@ adapta whats-next a mi tablero de Trello
 
 O lánzala directamente:
 
-```
+```bash
 /whats-next-builder
 ```
 
 ## Qué obtienes
 
-```
+```bash
 whats-next/
 ├── SKILL.md                    # cuándo usarla, formato de respuesta, configuración del acceso
 ├── references/state-model.md   # estados, de dónde sale cada dato, límites conocidos

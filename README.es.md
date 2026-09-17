@@ -61,7 +61,7 @@ La metaskill vive en [`skills/whats-next-builder/`](./skills/whats-next-builder)
 
 Lo que contesta un whats-next generado a *"¿qué tengo pendiente hoy?"*:
 
-```
+```bash
 📋 5 contigo · ⏳ 2 esperando · 🧊 1 atascado · 🎯 El Sprint 42 cierra en 3 días
 ⏰ Vence hoy: #512
 

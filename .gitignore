@@ -1,0 +1,9 @@
+.DS_Store
+node_modules/
+.env
+.env.*
+*.log
+
+# Skills generated while testing the builder live here, not in the repo
+.agents/
+.claude/

@@ -249,3 +249,8 @@ Show `why_this_one` when more than one <<container>> is open at once.
 comes from in <<SYSTEM>>, and the known limits. Read it when a classification
 looks wrong, when the user challenges a line, or when you need to explain why
 something landed where it did.
+
+---
+
+Generated with [whats-next-builder](https://github.com/webreactiva/whats-next-builder)
+by [webreactiva.com](https://webreactiva.com).

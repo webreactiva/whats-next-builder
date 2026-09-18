@@ -290,7 +290,8 @@ what the system cannot support. The description says when to invoke the skill,
 not what the skill is: the situations and the phrases, in the user's own
 language, that should trigger it. That is what makes "what do I have today", in
 their words, find the skill. The *Setup* section holds the access steps you verified
-with the user in step 2.
+with the user in step 2. Keep the closing signature line verbatim: it tells
+whoever finds the skill later where it came from.
 
 Write every generated file without long dashes as punctuation (neither the em
 dash nor a spaced double hyphen): use a colon, a comma, parentheses or a new

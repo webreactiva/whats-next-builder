@@ -88,17 +88,19 @@ ls -d ~/.claude/skills/skill-creator .claude/skills/skill-creator 2>/dev/null
 find ~/.claude/plugins -maxdepth 8 -type d -name skill-creator 2>/dev/null | head -1
 ```
 
-If it is missing, tell the user the wizard writes better skills with it and
-suggest using it. With their go-ahead, run
-`npx skills use "https://github.com/anthropics/skills" --skill "skill-creator"`
-and follow the generated skill instructions now. Read its complete output,
-redirecting it to a temporary file first if necessary. Resolve relative paths
-from the supporting-files directory it provides.
+**Never install or run it yourself.** Pulling a third-party skill into their
+machine is the user's decision, not the wizard's. If it is missing, say the
+wizard writes better skills with it, show them the official command **for them
+to run in their own terminal**, and ask whether they want to:
 
-That loads it for this session only. If they want it installed for good, the
-command is `npx skills add https://github.com/anthropics/skills --skill skill-creator -g`.
+```bash
+npx skills add https://github.com/anthropics/skills --skill skill-creator -g
+```
 
-If they decline, carry on: step 5 describes the anatomy to follow by hand.
+If they install it, a new session may be needed before it shows up in your skill
+list; ask them to tell you when it is ready. If they decline, or prefer not to
+stop now, carry on: step 5 describes the anatomy to follow by hand, and nothing
+else in the wizard depends on it.
 
 ## 1. 🔎 Detect: do not ask what you can see
 

@@ -105,7 +105,7 @@ por bloque.
 ```mermaid
 flowchart TD
     A["👋 Saludo y recorrido"] --> B{"¿skill-creator disponible?"}
-    B -->|no| B1["Sugiere cargarlo con npx skills"]
+    B -->|no| B1["Lo recomienda; instala el usuario o no"]
     B1 --> C
     B -->|sí| C["🔎 1. Detectar<br/>CLI, remotos de git, variables de entorno, MCP"]
     C --> D["🔑 2. Acceso"]

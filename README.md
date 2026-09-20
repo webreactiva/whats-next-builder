@@ -101,7 +101,7 @@ the same answer comes as one table per block.
 ```mermaid
 flowchart TD
     A["👋 Greeting and route"] --> B{"skill-creator available?"}
-    B -->|no| B1["Suggest loading it with npx skills"]
+    B -->|no| B1["Recommend it; the user installs it or not"]
     B1 --> C
     B -->|yes| C["🔎 1. Detect<br/>CLIs, git remotes, env vars, MCP servers"]
     C --> D["🔑 2. Access"]

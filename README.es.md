@@ -10,7 +10,7 @@ Funciona con **cualquier sistema**: GitHub, GitLab, Jira, Linear, Azure DevOps,
 Trello, Asana, Notion, un gestor instalado en tu propio servidor o dos a la vez
 (por ejemplo, tareas en Jira y código en GitHub).
 
-La metaskill vive en [`skills/whats-next-builder/`](./skills/whats-next-builder).
+![Cómo funciona whats-next-builder: pides a tu agente un whats-next, un asistente de siete pasos escribe una skill de solo lectura que responde qué tengo pendiente hoy](./assets/como-funciona.svg)
 
 ## Funcionalidades
 
@@ -32,8 +32,8 @@ La metaskill vive en [`skills/whats-next-builder/`](./skills/whats-next-builder)
   origen y no puede escribir.
 - 🎁 Te entrega cómo usarla, cómo renovar el acceso y una lista para evaluarla.
   No lanza evals por ti: juzgar la skill te toca a ti.
-- 📚 Una referencia de unos 30 sistemas conocidos con su CLI oficial y su
-  documentación de API, para empezar con ventaja. Los sistemas que no están en
+- 📚 Una referencia de sistemas conocidos con su CLI oficial y su documentación
+  de API, para empezar con ventaja. Los sistemas que no están en
   la lista siguen el mismo proceso.
 
 **La skill whats-next que obtienes**
@@ -203,7 +203,7 @@ Las convenciones de tu equipo (proyectos, estados, etiquetas) viven en **un
 ## Sistemas conocidos
 
 [`references/systems.md`](./skills/whats-next-builder/references/systems.md)
-recoge unos 30 sistemas con su CLI oficial (cuando existe) y su documentación
+recoge sistemas conocidos con su CLI oficial (cuando existe) y su documentación
 oficial de API. Es un punto de partida, no una lista cerrada.
 
 ## Feedback

@@ -10,7 +10,7 @@ It works with **any system**: GitHub, GitLab, Jira, Linear, Azure DevOps, Trello
 Asana, Notion, a self-hosted tracker, or two at once (tickets in Jira and code in
 GitHub, for example).
 
-The metaskill lives in [`skills/whats-next-builder/`](./skills/whats-next-builder).
+![How whats-next-builder works: you ask your agent for a whats-next, a seven-step wizard writes a read-only skill that answers what do I have pending today](./assets/how-it-works.svg)
 
 ## Features
 
@@ -32,8 +32,8 @@ The metaskill lives in [`skills/whats-next-builder/`](./skills/whats-next-builde
   cannot write.
 - 🎁 Hands over usage, access renewal and an evaluation checklist. It runs no
   evals for you: judging the skill is your call.
-- 📚 A reference of about 30 known systems with their official CLI and API docs,
-  as a head start. Systems not on the list follow the same process.
+- 📚 A reference of known systems with their official CLI and API docs, as a
+  head start. Systems not on the list follow the same process.
 
 **The whats-next skill you get**
 
@@ -200,7 +200,7 @@ checklist:
 ## Known systems
 
 [`references/systems.md`](./skills/whats-next-builder/references/systems.md)
-lists about 30 systems with their official CLI (when there is one) and official
+lists known systems with their official CLI (when there is one) and official
 API docs. It is a starting point, not a closed list.
 
 ## Feedback
